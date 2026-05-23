@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background: url('../img/fondo.jpg') no-repeat center center fixed;
+    align-items: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.inscripcion{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+    width: 700px;
+}
+.inscripcion h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color : #fff;
+}
+.formulary{
+    margin: 20px;
+}
+
+.formulary label{
+    display: flex;
+    margin-bottom: 5px;
+    color: white;
+    justify-content: initial;
+
+}
+.formulary input, .formulary textarea,  .formulary textPath{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.formulary input[type="radio"]{
+    width: auto;
+    margin-right: 10px;
+}
+.formulary textarea{
+    height: 100px;
+}
+#btn{
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:auto;
+    display: block;
+    width: 94%;
+}
+#btn:hover{
+    background-color: blue;
+    color: white;
+}

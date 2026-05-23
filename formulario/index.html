@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Contactanos</h2>
+        <form action="">
+            <div class="input-group">
+                <label for="txtnombre">Nombre:</label>
+                <input type="text" id="txtnombre" name="txtnombre" placeholder="digite el nombre">
+            </div>
+            <div class="input-group">
+                <label for="txtcorreo">Correo electronico:</label>
+                <input type="email" id="txtcorreo" name="txtcorreo" placeholder="digite el correo electronico">
+            </div>
+            <div class="input-group">
+                <label for="lstpais">País:</label>
+                <select name="lstpais" id="lstpais">
+                    <option value="">Colombia</option>
+                    <option value="">México</option>
+                    <option value="">Argentina</option>
+                    <option value="">España</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="txtMensajes">Mensaje:</label>
+                <textarea id="txtMensajes" name="txtMensajes" rows="4" placeholder="digite el mensaje a enviar"></textarea>
+            </div>
+          <button type="submit" class="btn">Enviar</button>  
+        </form>
+    </div>
+    
+</body>
+</html>
